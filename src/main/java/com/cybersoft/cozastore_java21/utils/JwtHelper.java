@@ -39,7 +39,7 @@ public class JwtHelper {
                     .getBody();
 
         }catch (Exception e){
-            e.printStackTrace();
+
         }
         return claims;
     }
