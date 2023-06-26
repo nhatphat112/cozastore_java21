@@ -7,5 +7,4 @@ import java.util.ArrayList;
 @Service
 public interface CategoryServiceImp {
     public ArrayList<CategoryResponse> getAllCategory();
-
 }
