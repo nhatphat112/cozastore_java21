@@ -23,6 +23,7 @@ public class CategoryService implements CategoryServiceImp{
 
     @Override
 //    @Cacheable("listcategory")
+
     public ArrayList<CategoryResponse> getAllCategory() {
         ArrayList<CategoryResponse> categoryResponses = new ArrayList<>();
         System.out.println("Check category");
