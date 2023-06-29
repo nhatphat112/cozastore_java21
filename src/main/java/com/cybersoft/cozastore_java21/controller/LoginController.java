@@ -22,7 +22,7 @@ public class LoginController {
     // statusCode : 200;
     // message : announce;
     // data :
-    @CrossOrigin
+    @CrossOrigin("*")
    @RequestMapping(value = "/signin",method = RequestMethod.POST)
     public ResponseEntity<?> sigin(@RequestParam String email,@RequestParam String password){
        authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(email,password));
